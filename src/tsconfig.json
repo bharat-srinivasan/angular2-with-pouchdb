@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "outDir": "../dist/",
+    "rootDir": ".",
+    "target": "es5",
+    "inlineSourceMap": true,
+    "typeRoots": [
+      "../node_modules/@types/"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "../dist/"
+  }
+}
