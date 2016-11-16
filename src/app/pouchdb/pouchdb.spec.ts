@@ -17,8 +17,12 @@ describe('Test of pouchdb usage', ()=> {
     storageService = service;
   }));
 
-  it('test put', ()=> {
+  it('test put', (done)=> {
     expect(storageService).not.toBe(undefined);
+    storageService.put({ _id: 'test' }).then(() => {
+      console.log('Here');
+      done();
+    });
   });
 
 });

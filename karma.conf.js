@@ -29,7 +29,7 @@ module.exports = function (config) {
       {pattern: 'node_modules/@angular/**/*', included: false, watched: false},
       {pattern: 'node_modules/rxjs/**/*', included: false, watched: false},
 
-      {pattern: 'config/karma-test-shim.js', included: true, watched: true},
+      {pattern: 'karma-test-shim.js', included: true, watched: true},
 
       {pattern: 'node_modules/zone.js/dist/zone.js', included: true, watched: false},
       'node_modules/zone.js/dist/long-stack-trace-zone.js',
@@ -52,7 +52,7 @@ module.exports = function (config) {
       {pattern: 'node_modules/es6-promise-pool/es6-promise-pool.js', included: false, watched: false},
 
       // Distribution folder.
-      {pattern: 'dist/**/*.spec.ts', included: false, watched: true}
+      {pattern: 'dist/**/*', included: false, watched: true}
     ],
     exclude: [
       'dist/**/*.d.ts',
