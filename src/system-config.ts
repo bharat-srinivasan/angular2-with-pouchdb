@@ -16,7 +16,7 @@ const barrels: string[] = [
   'rxjs',
 
   // App specific barrels.
-  '@robusta', '@robusta/shared', '@robusta/logging'
+  '@robusta', '@robusta/shared', '@robusta/logging', 'pouchdb'
   /** @cli-barrel */
 ];
 

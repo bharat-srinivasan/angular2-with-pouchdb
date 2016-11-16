@@ -3,6 +3,7 @@ import { TestBed, inject } from '@angular/core/testing';
 import { PouchDBService } from './pouchdb';
 
 
+console.log('here---1');
 describe('Test of pouchdb usage', ()=> {
   let storageService;
 
